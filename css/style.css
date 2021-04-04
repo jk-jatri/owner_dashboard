@@ -1,0 +1,104 @@
+@font-face {
+    font-family: Helvetica Neue;
+    src: url(../fonts/HelveticaNeue.ttf);
+}
+
+.bg_color {
+    background-color: #F7F7F7;
+}
+
+.navbar {
+    background-color: #fff;
+}
+
+.logo img {
+    width: 50%;
+    image-rendering: -webkit-optimize-contrast;
+}
+
+.input_field {
+    border: 1px solid #ddd !important;
+    background-color: #F7F7F7 !important;
+    font-size: 14px !important;
+    font-family: Helvetica Neue;
+}
+
+.input_field::placeholder {
+    font-size: 14px !important;
+    font-family: Helvetica Neue;
+    color: #868E96;
+}
+
+.input_field:focus {
+    border: 1px solid #FF6347;
+    background-color: #fff !important;
+}
+
+.user_info {
+    text-decoration: none;
+}
+
+.user_info span,
+.user_info:hover span {
+    text-decoration: none;
+    color: #212529;
+}
+
+
+/* Login Area */
+
+.login_panel {
+    height: 90vh;
+}
+
+.login_area {
+    border-radius: 23px;
+    background-color: #fff;
+}
+
+.login_area h2 {
+    font-size: 33px;
+    margin: 0;
+}
+
+.label_font {
+    font-family: Helvetica Neue;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.form-control:focus {
+    border-color: #FF6347 !important;
+    box-shadow: 0 0 0 2px rgba(255, 99, 71, 25%) !important;
+}
+
+.login_btn {
+    background-color: #FF6347;
+    border: 2px solid #FF6347;
+}
+
+.login_btn:hover {
+    background-color: #fff;
+    border: 2px solid #FF6347;
+    color: #FF6347 !important;
+    transition: 0.4s;
+}
+
+
+/* password Show-hide */
+
+.field-icon {
+    float: right;
+    margin-top: -33px;
+    margin-right: 14px;
+    position: relative;
+    z-index: 2;
+}
+
+
+/* ======================== Dashboard page design =========================== */
+
+.no-gutter {
+    padding: 0;
+    margin: 0;
+}

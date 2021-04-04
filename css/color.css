@@ -1,0 +1,68 @@
+.corporate_btn{
+    background-color: #FF6347;
+    border: 1px solid #FF6347;
+}
+
+.corporate_btn:hover{
+    color: #FF6347;
+}
+
+.success_btn{
+    background-color: #23832F;
+    border: 1px solid #23832F;
+}
+
+.success_btn:hover{
+    color: #23832F;
+}
+.female_sold{
+    background-color: #9B51E0;
+    border: 1px solid #9B51E0;
+}
+
+.female_sold:hover{
+    color: #9B51E0;
+}
+
+.male_sold{
+    background-color: #2D9CDB;
+    border: 1px solid #2D9CDB;
+}
+
+.male_sold:hover{
+    color: #2D9CDB;
+}
+
+.female_booked{
+    background-color: #F2994A;
+    border: 1px solid #F2994A;
+}
+
+.female_booked:hover{
+    color: #F2994A;
+}
+
+.male_booked{
+    background-color: #EB5757;
+    border: 1px solid #EB5757;
+}
+
+.male_booked:hover{
+    color: #EB5757;
+}
+
+.block_other{
+    background-color: #C9CDD1;
+    border: 1px solid #C9CDD1;
+}
+
+.block_other:hover{
+    color: #C9CDD1;
+}
+
+.available_other{
+    background-color: #fff;
+    border: 1px solid #ADB5BD;
+    color: #000
+}
+

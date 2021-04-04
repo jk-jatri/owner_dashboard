@@ -1,0 +1,106 @@
+@media only screen and (min-width: 1400px){
+    .font_detail{
+        font-size: 12px !important;
+    }
+    .common_btn {
+        padding: 5px 4px !important;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px){
+    .font_detail,
+    .dashboard_nav li a,
+    .coach_detail tr th,
+    .coach_detail tr td,
+    .information_table tr td,
+    .information_table tr th{
+        font-size: 9px !important;
+    }
+
+    .form_width {
+        width: 200px !important;
+    }
+
+    .common_btn {
+        padding: 5px 4px;
+    }
+
+    .table_single_row{
+        height: auto;
+        padding-bottom: 0;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    .font_detail,
+    .dashboard_nav li a,
+    .coach_detail tr th,
+    .coach_detail tr td,
+    .information_table tr td,
+    .information_table tr th{
+        font-size: 9px !important;
+    }
+
+    .table_content{
+        overflow-x: scroll;
+        width: 100%;
+    }
+
+    .form_width {
+        width: 200px !important;
+    }
+
+    .mb_lg_device{
+        margin-bottom: 5px;
+    }
+
+    .table_head,
+    .table_single_row{
+        height: auto;
+        padding-bottom: 0;
+    }
+    
+    .common_btn {
+        padding: 5px 3px;
+    }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px){
+    .font_detail,
+    .dashboard_nav li a,
+    .coach_detail tr th,
+    .coach_detail tr td,
+    .information_table tr td,
+    .information_table tr th{
+        font-size: 9px !important;
+    }
+    
+    .table_head,
+    .table_single_row{
+        height: auto;
+        padding-bottom: 0;
+    }
+    .common_btn {
+        padding: 5px 3px;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .font_detail,
+    .dashboard_nav li a,
+    .coach_detail tr th,
+    .coach_detail tr td,
+    .information_table tr td,
+    .information_table tr th{
+        font-size: 9px !important;
+    }
+
+    .booking_info{
+        margin-bottom: 4px;
+    }
+
+    .booking_info_sm_device{
+        margin-left: 13px;
+    }
+}
+
